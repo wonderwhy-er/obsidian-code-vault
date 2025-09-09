@@ -11,10 +11,10 @@
             "id": "ac7f5709a16e0a08",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -136,12 +136,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of README"
             }
           }
         ]
@@ -162,21 +163,43 @@
       "bases:Create new base": false
     }
   },
-  "active": "ac7f5709a16e0a08",
+  "active": "20441707baea91ad",
   "lastOpenFiles": [
+    "04-testing/UserService Tests.md",
+    "02-backend/database/Repository Pattern.md",
+    "02-backend/api/RESTful Conventions.md",
+    "02-backend/api/API Versioning.md",
+    "02-backend/auth/Session Store.md",
+    "02-backend/auth/Password Hashing.md",
+    "update-structure-links.py",
+    "05-operations/README.md",
+    "04-testing/README.md",
+    "03-frontend/README.md",
+    "02-backend/README.md",
+    "README.md",
+    "05-operations/Configuration.md",
+    "04-testing/Testing Strategy.md",
+    "03-frontend/Frontend Components.md",
+    "02-backend/Error Handling.md",
+    "02-backend/api/API Design.md",
+    "02-backend/User Management.md",
+    "02-backend/database/Database Layer.md",
+    "02-backend/auth/JWT Token Manager.md",
+    "02-backend/auth/Authentication System.md",
+    "01-architecture/README.md",
+    "05-operations",
+    "04-testing",
+    "03-frontend",
+    "02-backend/api",
+    "02-backend/database",
+    "02-backend/auth",
+    "02-backend",
+    "01-architecture",
+    "JWT Token Manager.md",
+    "Authentication System.md",
+    "API Design.md",
     "convert-links.py",
     "API Versioning.md",
-    "API Design.md",
-    "README.md",
-    "Authentication System.md",
-    "User Management.md",
-    "UserService Tests.md",
-    "Testing Strategy.md",
-    "Session Store.md",
-    "RESTful Conventions.md",
-    "Repository Pattern.md",
-    "Database Layer.md",
-    "Configuration.md",
-    "Password Hashing.md"
+    "User Management.md"
   ]
 }

@@ -51,7 +51,7 @@ class ProductRepository extends BaseRepository<Product> {
 
 ## Performance
 
-- Connection pooling configured in [Configuration](Configuration.md)
+- Connection pooling configured in [Configuration](../../05-operations/Configuration.md)
 - Slow query monitoring via [Database Monitoring](Database%2520Monitoring.md)
 - Caching strategy documented in [Caching Layer](Caching%2520Layer.md)
 

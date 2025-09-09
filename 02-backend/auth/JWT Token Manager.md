@@ -21,7 +21,7 @@ export class JWTTokenManager {
   private expiresIn: string;
   
   constructor() {
-    // Configuration loaded from [Configuration](Configuration.md)
+    // Configuration loaded from [Configuration](../../05-operations/Configuration.md)
     this.secretKey = process.env.JWT_SECRET!;
     this.expiresIn = process.env.JWT_EXPIRES_IN || '1h';
   }
@@ -67,7 +67,7 @@ export class JWTTokenManager {
 
 ## Configuration
 
-Token settings managed in [Configuration](Configuration.md):
+Token settings managed in [Configuration](../../05-operations/Configuration.md):
 - `JWT_SECRET` - Signing key
 - `JWT_EXPIRES_IN` - Token lifetime
 - `JWT_REFRESH_EXPIRES_IN` - Refresh token lifetime
