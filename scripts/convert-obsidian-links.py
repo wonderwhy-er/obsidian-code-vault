@@ -179,6 +179,8 @@ def main():
         print(f"   git add -u    # Stage the converted files")
         print(f"   git commit    # Commit the changes")
         
+        return 2  # Return 2 to indicate "files changed, please auto-stage"
+        
     else:
         print("✅ All files already use GitHub-compatible links!")
     
