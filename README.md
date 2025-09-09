@@ -88,3 +88,5 @@ To maintain GitHub compatibility while using Obsidian:
 ---
 
 *This vault serves as a template for creating networked technical documentation that works seamlessly in both Obsidian and GitHub.*
+
+**Created with [Desktop Commander](https://desktopcommander.app/)** - An AI assistant for your desktop that can interact with your files and folders.
