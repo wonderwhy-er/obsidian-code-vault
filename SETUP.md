@@ -15,8 +15,8 @@ git commit -m "Your changes"  # Hook runs automatically
 ```
 
 **What the hook does:**
-- ✅ Converts `[[Obsidian links]]` → `[GitHub links](File%20Name.md)`  
-- ✅ Fixes URL encoding issues (`%2520` → `%20`)
+- ✅ Converts `[Obsidian links](Obsidian%20links.md)` → `[GitHub links](File%20Name.md)`  
+- ✅ Fixes URL encoding issues (`%20` → `%20`)
 - ✅ Handles spaces in filenames properly
 - ✅ Shows you what was changed before committing
 
@@ -51,9 +51,9 @@ graph LR
 
 **Before (Obsidian format):**
 ```markdown
-See [[Authentication System]] for login details.
-The [[Database Layer]] handles persistence.
-Check [[API Design]] for endpoints.
+See [Authentication System](Authentication%20System.md) for login details.
+The [Database Layer](Database%20Layer.md) handles persistence.
+Check [API Design](API%20Design.md) for endpoints.
 ```
 
 **After (GitHub-compatible):**
@@ -70,7 +70,7 @@ Edit `.git/hooks/pre-commit` to customize behavior:
 
 ```bash
 # Skip conversion for specific files
-if [[ "$file" == "CHANGELOG.md" ]]; then
+if ["$file" == "CHANGELOG.md"](%22%24file%22%20%3D%3D%20%22CHANGELOG.md%22.md); then
     continue
 fi
 
@@ -122,7 +122,7 @@ python3 scripts/convert-obsidian-links.py --verbose
 # Look for common problems
 grep -r "\[\[" *.md                    # Find remaining Obsidian links
 grep -r "] (" *.md                     # Find unencoded spaces  
-grep -r "%2520" *.md                   # Find double-encoded URLs
+grep -r "%20" *.md                   # Find double-encoded URLs
 ```
 
 ### Performance Issues?
@@ -143,7 +143,7 @@ git add -u && git commit -m "Fix links"
 
 ### For Content Creators
 
-1. **Write naturally in Obsidian** using `[[double brackets]]`
+1. **Write naturally in Obsidian** using `[double brackets](double%20brackets.md)`
 2. **Let the tools convert** links automatically on commit
 3. **Review changes** before committing to catch any issues
 4. **Test links** occasionally in GitHub to verify they work
@@ -184,7 +184,7 @@ git add -u && git commit -m "Fix links"
 ### Test Your Setup
 ```bash
 # 1. Create a test file with Obsidian links
-echo "# Test\nSee [[Authentication System]] for details." > test.md
+echo "# Test\nSee [Authentication System](Authentication%20System.md) for details." > test.md
 
 # 2. Stage and commit
 git add test.md

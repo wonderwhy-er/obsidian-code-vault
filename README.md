@@ -2,7 +2,7 @@
 
 Welcome to a structured approach to code documentation using Obsidian-style linking with GitHub compatibility. This vault demonstrates how to organize and interconnect technical documentation across a software project.
 
-[[test]]
+[test](test.md)
 ## 🗂️ Structure Overview
 
 ```

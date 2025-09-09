@@ -27,8 +27,8 @@ This vault is designed to work seamlessly in both environments:
 
 ❌ **Incorrect:**
 ```markdown
-[[Authentication System]]
-[[User Management]]
+[Authentication System](Authentication%20System.md)
+[User Management](User%20Management.md)
 ```
 
 ### URL Encoding for Spaces
@@ -42,8 +42,8 @@ This vault is designed to work seamlessly in both environments:
 
 ❌ **Incorrect:**
 ```markdown
-[API Design](02-backend/api/API Design.md)
-[Database Layer](database/Database Layer.md)
+[API Design](02-backend/api/API%20Design.md)
+[Database Layer](database/Database%20Layer.md)
 ```
 
 ### Relative Path Guidelines
@@ -98,13 +98,13 @@ Every documentation file should include:
 // src/services/UserService.ts
 export class UserService {
   constructor(
-    private userRepo: UserRepository,    // Links to [[Database Layer]]
-    private authService: AuthService     // Links to [[Authentication System]]
+    private userRepo: UserRepository,    // Links to [Database Layer](Database%20Layer.md)
+    private authService: AuthService     // Links to [Authentication System](Authentication%20System.md)
   ) {}
   
   async createUser(data: CreateUserDto): Promise<User> {
-    // Validation patterns documented in [[Input Validation]]
-    // Error handling via [[Error Management]]
+    // Validation patterns documented in [Input Validation](Input%20Validation.md)
+    // Error handling via [Error Management](Error%20Management.md)
   }
 }
 ```
@@ -160,7 +160,7 @@ When modifying existing documentation:
 ### Link Conversion Scripts
 The vault includes scripts for maintaining link compatibility:
 
-- `convert-links.py`: Convert `[[links]]` to `[links](file.md)` format
+- `convert-links.py`: Convert `[links](links.md)` to `[links](file.md)` format
 - `fix-encoding.py`: Fix URL encoding issues
 - `fix-multiple-encoding.py`: Clean up over-encoded URLs
 
@@ -222,7 +222,7 @@ Recommended Obsidian plugins that work well with this structure:
 - ✅ Rich cross-referencing between related concepts
 - ✅ Clear folder structure with navigation READMEs
 - ✅ Consistent tagging and categorization
-- ❌ Never use `[[Obsidian double bracket]]` links
+- ❌ Never use `[Obsidian double bracket](Obsidian%20double%20bracket.md)` links
 - ❌ Never use spaces in URLs without encoding
 - ❌ Avoid absolute paths when relative paths work
 
