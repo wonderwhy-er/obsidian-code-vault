@@ -21,7 +21,7 @@ export class JWTTokenManager {
   private expiresIn: string;
   
   constructor() {
-    // Configuration loaded from [[Configuration]]
+    // Configuration loaded from [Configuration](Configuration.md)
     this.secretKey = process.env.JWT_SECRET!;
     this.expiresIn = process.env.JWT_EXPIRES_IN || '1h';
   }
@@ -30,7 +30,7 @@ export class JWTTokenManager {
     const payload = {
       userId: user.id,
       email: user.email,
-      roles: user.roles // Links to [[Role-Based Access Control]]
+      roles: user.roles // Links to [Role-Based Access Control](Role-Based%2520Access%2520Control.md)
     };
     
     return jwt.sign(payload, this.secretKey, {
@@ -44,7 +44,7 @@ export class JWTTokenManager {
       const decoded = jwt.verify(token, this.secretKey);
       return decoded as DecodedToken;
     } catch (error) {
-      // Error handling via [[Authentication Errors]]
+      // Error handling via [Authentication Errors](Authentication%2520Errors.md)
       return null;
     }
   }
@@ -53,10 +53,10 @@ export class JWTTokenManager {
 
 ## Integration Points
 
-- **Authentication**: Used by [[Authentication System]] for login
-- **Middleware**: Validates tokens in [[Authentication Middleware]]
-- **Frontend**: Token storage handled by [[Auth Context]]
-- **Database**: Blacklist stored via [[Session Store]]
+- **Authentication**: Used by [Authentication System](Authentication%2520System.md) for login
+- **Middleware**: Validates tokens in [Authentication Middleware](Authentication%2520Middleware.md)
+- **Frontend**: Token storage handled by [Auth Context](Auth%2520Context.md)
+- **Database**: Blacklist stored via [Session Store](Session%2520Store.md)
 
 ## Security Features
 
@@ -67,7 +67,7 @@ export class JWTTokenManager {
 
 ## Configuration
 
-Token settings managed in [[Configuration]]:
+Token settings managed in [Configuration](Configuration.md):
 - `JWT_SECRET` - Signing key
 - `JWT_EXPIRES_IN` - Token lifetime
 - `JWT_REFRESH_EXPIRES_IN` - Refresh token lifetime

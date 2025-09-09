@@ -4,11 +4,11 @@ Welcome to the networked code documentation system! This vault demonstrates how 
 
 ## Core Concepts
 
-- [[Authentication System]] - User login and security
-- [[Database Layer]] - Data persistence and queries
-- [[API Design]] - RESTful endpoints and responses
-- [[Frontend Components]] - React UI components
-- [[Testing Strategy]] - Unit and integration tests
+- [Authentication System](Authentication%20System.md) - User login and security
+- [Database Layer](Database%20Layer.md) - Data persistence and queries
+- [API Design](API%20Design.md) - RESTful endpoints and responses
+- [Frontend Components](Frontend%20Components.md) - React UI components
+- [Testing Strategy](Testing%20Strategy.md) - Unit and integration tests
 
 ## Architecture Overview
 
@@ -22,9 +22,9 @@ graph TD
 
 ## Quick Navigation
 
-- [[User Management]] - Core user operations
-- [[Error Handling]] - System-wide error patterns
-- [[Configuration]] - Environment and settings
-- [[Deployment]] - CI/CD and infrastructure
+- [User Management](User%20Management.md) - Core user operations
+- [Error Handling](Error%20Handling.md) - System-wide error patterns
+- [Configuration](Configuration.md) - Environment and settings
+- [Deployment](Deployment.md) - CI/CD and infrastructure
 
 #documentation #architecture #overview
