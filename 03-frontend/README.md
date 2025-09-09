@@ -3,7 +3,7 @@
 Client-side implementation guides, component library, and UI patterns.
 
 ## 🧩 Components
-- [Frontend Components](Frontend Components.md) - React component hierarchy and patterns
+- [Frontend Components](Frontend%20Components.md) - React component hierarchy and patterns
 
 ## 🔗 Quick Navigation
 - [← Backend](../02-backend/README.md)

@@ -16,7 +16,7 @@ config/
 
 ### Database Configuration
 ```bash
-# Database connection - used by [Database Layer](Database%2520Layer.md)
+# Database connection - used by [Database Layer](Database%252520Layer.md)
 DATABASE_URL=postgresql://user:pass@localhost:5432/myapp
 DB_POOL_MIN=2
 DB_POOL_MAX=10
@@ -24,24 +24,24 @@ DB_POOL_MAX=10
 
 ### Authentication Settings
 ```bash
-# JWT configuration - used by [JWT Token Manager](JWT%2520Token%2520Manager.md)
+# JWT configuration - used by [JWT Token Manager](JWT%252520Token%252520Manager.md)
 JWT_SECRET=your-super-secret-key
 JWT_EXPIRES_IN=1h
 JWT_REFRESH_EXPIRES_IN=7d
 
-# Password policy - used by [Password Hashing](Password%2520Hashing.md)
+# Password policy - used by [Password Hashing](Password%252520Hashing.md)
 MIN_PASSWORD_LENGTH=8
 PASSWORD_REQUIRE_SPECIAL_CHARS=true
 ```
 
 ### API Configuration
 ```bash
-# Server settings - used by [API Design](API%2520Design.md)
+# Server settings - used by [API Design](API%252520Design.md)
 PORT=3000
 API_VERSION=v1
 CORS_ORIGIN=http://localhost:3001
 
-# Rate limiting - used by [Rate Limiting](Rate%2520Limiting.md)
+# Rate limiting - used by [Rate Limiting](Rate%252520Limiting.md)
 RATE_LIMIT_WINDOW_MS=900000
 RATE_LIMIT_MAX_REQUESTS=100
 ```
@@ -79,9 +79,9 @@ export const loadConfig = (): AppConfig => {
 
 ## Usage Across System
 
-- **Database**: Connection settings in [Database Layer](Database%2520Layer.md)
-- **Auth**: Token configuration in [Authentication System](Authentication%2520System.md)
-- **API**: Server and middleware settings in [API Design](API%2520Design.md)
-- **Testing**: Test-specific overrides in [Testing Strategy](Testing%2520Strategy.md)
+- **Database**: Connection settings in [Database Layer](Database%252520Layer.md)
+- **Auth**: Token configuration in [Authentication System](Authentication%252520System.md)
+- **API**: Server and middleware settings in [API Design](API%252520Design.md)
+- **Testing**: Test-specific overrides in [Testing Strategy](Testing%252520Strategy.md)
 
 #configuration #environment #settings

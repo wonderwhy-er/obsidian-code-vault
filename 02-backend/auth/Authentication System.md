@@ -4,7 +4,7 @@ The authentication system handles user login, session management, and access con
 
 ## Core Components
 
-- [JWT Token Manager](JWT Token Manager.md) - Token generation and validation
+- [JWT Token Manager](JWT%20Token%20Manager.md) - Token generation and validation
 - [Password Hashing](Password%20Hashing.md) - Secure password storage
 - [Session Store](Session%20Store.md) - User session persistence
 - [Role-Based Access Control](Role-Based%20Access%20Control.md) - Permission management
@@ -16,18 +16,18 @@ The authentication system handles user login, session management, and access con
 class AuthService {
   async login(credentials) {
     // Implementation links to [Password Hashing](Password%20Hashing.md)
-    // Returns [JWT Token Manager](JWT Token Manager.md) token
+    // Returns [JWT Token Manager](JWT%20Token%20Manager.md) token
   }
   
   async validateToken(token) {
-    // Uses [JWT Token Manager](JWT Token Manager.md) validation
+    // Uses [JWT Token Manager](JWT%20Token%20Manager.md) validation
   }
 }
 ```
 
 ## Integration Points
 
-- **Database**: Uses [User Management](../User Management.md) for user data
+- **Database**: Uses [User Management](../User%20Management.md) for user data
 - **API**: Protects routes via [Middleware](Middleware.md) 
 - **Frontend**: Integrates with [Login Component](Login%20Component.md)
 - **Error Handling**: Uses [Authentication Errors](Authentication%20Errors.md)

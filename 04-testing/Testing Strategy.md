@@ -6,13 +6,13 @@ Comprehensive testing approach covering unit, integration, and end-to-end testin
 
 ```
     /\
-   /E2E\     ← [End-to-End Tests](End-to-End%2520Tests.md)
+   /E2E\     ← [End-to-End Tests](End-to-End%252520Tests.md)
   /______\
  /        \
-/Integration\ ← [Integration Tests](Integration%2520Tests.md)
+/Integration\ ← [Integration Tests](Integration%252520Tests.md)
 \_____________/
 /              \
-/  Unit Tests  \ ← [Unit Tests](Unit%2520Tests.md)
+/  Unit Tests  \ ← [Unit Tests](Unit%252520Tests.md)
 \_______________/
 ```
 
@@ -22,19 +22,19 @@ Comprehensive testing approach covering unit, integration, and end-to-end testin
 - **Location**: `src/**/*.test.ts`
 - **Framework**: Jest + Testing Library
 - **Coverage**: Individual functions and components
-- **Examples**: [UserService Tests](UserService%2520Tests.md), [JWT Token Tests](JWT%2520Token%2520Tests.md)
+- **Examples**: [UserService Tests](UserService%252520Tests.md), [JWT Token Tests](JWT%252520Token%252520Tests.md)
 
 ### Integration Tests  
 - **Location**: `tests/integration/`
 - **Framework**: Jest + Supertest
 - **Coverage**: API endpoints and database operations
-- **Examples**: [Auth API Tests](Auth%2520API%2520Tests.md), [Database Integration Tests](Database%2520Integration%2520Tests.md)
+- **Examples**: [Auth API Tests](Auth%252520API%252520Tests.md), [Database Integration Tests](Database%252520Integration%252520Tests.md)
 
 ### End-to-End Tests
 - **Location**: `e2e/`
 - **Framework**: Playwright
 - **Coverage**: Complete user workflows
-- **Examples**: [Login Flow Test](Login%2520Flow%2520Test.md), [User Registration E2E](User%2520Registration%2520E2E.md)
+- **Examples**: [Login Flow Test](Login%252520Flow%252520Test.md), [User Registration E2E](User%252520Registration%252520E2E.md)
 
 ## Test Configuration
 
@@ -53,10 +53,10 @@ module.exports = {
 
 ## Testing Utilities
 
-- [Test Database Setup](Test%2520Database%2520Setup.md) - Isolated test database
-- [Mock Services](Mock%2520Services.md) - Service layer mocking
-- [Test Fixtures](Test%2520Fixtures.md) - Reusable test data
-- [Custom Matchers](Custom%2520Matchers.md) - Domain-specific assertions
+- [Test Database Setup](Test%252520Database%252520Setup.md) - Isolated test database
+- [Mock Services](Mock%252520Services.md) - Service layer mocking
+- [Test Fixtures](Test%252520Fixtures.md) - Reusable test data
+- [Custom Matchers](Custom%252520Matchers.md) - Domain-specific assertions
 
 ## CI/CD Integration
 

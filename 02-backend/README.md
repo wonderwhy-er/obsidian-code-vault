@@ -13,8 +13,8 @@ Server-side implementation guides, patterns, and architecture.
 - [API Design](api/API%20Design.md) - RESTful conventions and implementation
 
 ## 👥 Core Services
-- [User Management](User Management.md) - User lifecycle and operations
-- [Error Handling](Error Handling.md) - Centralized error management
+- [User Management](User%20Management.md) - User lifecycle and operations
+- [Error Handling](Error%20Handling.md) - Centralized error management
 
 ## 🔗 Quick Navigation
 - [← Back to Main](../README.md)

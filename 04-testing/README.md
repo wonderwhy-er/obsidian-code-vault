@@ -3,7 +3,7 @@
 Quality assurance processes, testing strategies, and implementation guides.
 
 ## 📋 Testing Strategy
-- [Testing Strategy](Testing Strategy.md) - Comprehensive testing approach
+- [Testing Strategy](Testing%20Strategy.md) - Comprehensive testing approach
 
 ## 🔗 Quick Navigation
 - [← Frontend](../03-frontend/README.md)
