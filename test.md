@@ -1,1 +1,1 @@
-[[success]]
+[success](success.md)
