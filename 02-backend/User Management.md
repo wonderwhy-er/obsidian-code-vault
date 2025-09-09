@@ -22,7 +22,7 @@ interface User {
   email: string;
   firstName: string;
   lastName: string;
-  roles: Role[]; // Links to [Role-Based Access Control](Role-Based%252520Access%252520Control.md)
+  roles: Role[]; // Links to [Role-Based Access Control](Role-Based%20Access%20Control.md)
   createdAt: Date;
   updatedAt: Date;
   lastLoginAt?: Date;
@@ -37,12 +37,12 @@ interface User {
 // src/services/UserService.ts
 export class UserService {
   constructor(
-    private userRepository: UserRepository, // [Database Layer](Database%252520Layer.md)
-    private authService: AuthService        // [Authentication System](Authentication%252520System.md)
+    private userRepository: UserRepository, // [Database Layer](Database%20Layer.md)
+    private authService: AuthService        // [Authentication System](Authentication%20System.md)
   ) {}
   
   async createUser(userData: CreateUserDto): Promise<User> {
-    // Password hashing via [Password Hashing](Password%252520Hashing.md)
+    // Password hashing via [Password Hashing](Password%20Hashing.md)
     // Email validation and uniqueness check
     // Initial role assignment
   }
@@ -56,10 +56,10 @@ export class UserService {
 
 ## Related Components
 
-- **Frontend**: [User Profile](User%252520Profile.md), [User Dashboard](User%252520Dashboard.md)
-- **API**: User endpoints in [API Design](API%252520Design.md)
-- **Database**: [UserRepository](UserRepository.md) in [Database Layer](Database%252520Layer.md)
-- **Auth**: Integration with [Authentication System](Authentication%252520System.md)
+- **Frontend**: [User Profile](User%20Profile.md), [User Dashboard](User%20Dashboard.md)
+- **API**: User endpoints in [API Design](API%20Design.md)
+- **Database**: [UserRepository](UserRepository.md) in [Database Layer](Database%20Layer.md)
+- **Auth**: Integration with [Authentication System](Authentication%20System.md)
 
 ## Business Rules
 

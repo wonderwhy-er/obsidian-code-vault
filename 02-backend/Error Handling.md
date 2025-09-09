@@ -69,10 +69,10 @@ export class AuthenticationError extends AppError {
 
 ## Integration Points
 
-- **API Layer**: All routes use error middleware from [API Design](API%252520Design.md)
-- **Database**: Database errors handled in [Database Layer](Database%252520Layer.md)
-- **Auth**: Authentication errors in [Authentication System](Authentication%252520System.md)
-- **Frontend**: Error display in [Frontend Components](Frontend%252520Components.md)
+- **API Layer**: All routes use error middleware from [API Design](API%20Design.md)
+- **Database**: Database errors handled in [Database Layer](Database%20Layer.md)
+- **Auth**: Authentication errors in [Authentication System](Authentication%20System.md)
+- **Frontend**: Error display in [Frontend Components](Frontend%20Components.md)
 
 ## Logging Strategy
 

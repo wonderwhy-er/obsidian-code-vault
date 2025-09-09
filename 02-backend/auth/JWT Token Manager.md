@@ -30,7 +30,7 @@ export class JWTTokenManager {
     const payload = {
       userId: user.id,
       email: user.email,
-      roles: user.roles // Links to [Role-Based Access Control](Role-Based%252520Access%252520Control.md)
+      roles: user.roles // Links to [Role-Based Access Control](Role-Based%20Access%20Control.md)
     };
     
     return jwt.sign(payload, this.secretKey, {
@@ -44,7 +44,7 @@ export class JWTTokenManager {
       const decoded = jwt.verify(token, this.secretKey);
       return decoded as DecodedToken;
     } catch (error) {
-      // Error handling via [Authentication Errors](Authentication%252520Errors.md)
+      // Error handling via [Authentication Errors](Authentication%20Errors.md)
       return null;
     }
   }
@@ -53,10 +53,10 @@ export class JWTTokenManager {
 
 ## Integration Points
 
-- **Authentication**: Used by [Authentication System](Authentication%252520System.md) for login
-- **Middleware**: Validates tokens in [Authentication Middleware](Authentication%252520Middleware.md)
-- **Frontend**: Token storage handled by [Auth Context](Auth%252520Context.md)
-- **Database**: Blacklist stored via [Session Store](Session%252520Store.md)
+- **Authentication**: Used by [Authentication System](Authentication%20System.md) for login
+- **Middleware**: Validates tokens in [Authentication Middleware](Authentication%20Middleware.md)
+- **Frontend**: Token storage handled by [Auth Context](Auth%20Context.md)
+- **Database**: Blacklist stored via [Session Store](Session%20Store.md)
 
 ## Security Features
 

@@ -171,6 +171,7 @@
   },
   "active": "ac7f5709a16e0a08",
   "lastOpenFiles": [
+    "fix-multiple-encoding.py",
     "fix-encoding.py",
     "02-backend/api/API Design.md",
     "01-architecture/README.md",
@@ -202,7 +203,6 @@
     "02-backend/database",
     "02-backend/auth",
     "02-backend",
-    "01-architecture",
     "JWT Token Manager.md",
     "Authentication System.md",
     "API Design.md",

@@ -8,9 +8,9 @@ Handles all data persistence operations using PostgreSQL with Prisma ORM.
 ┌─────────────────┐
 │   Application   │
 ├─────────────────┤
-│  Repository     │ ← [Repository Pattern](Repository%252520Pattern.md)
+│  Repository     │ ← [Repository Pattern](Repository%20Pattern.md)
 ├─────────────────┤
-│  Prisma Client  │ ← [ORM Configuration](ORM%252520Configuration.md)
+│  Prisma Client  │ ← [ORM Configuration](ORM%20Configuration.md)
 ├─────────────────┤
 │  PostgreSQL     │
 └─────────────────┘
@@ -18,10 +18,10 @@ Handles all data persistence operations using PostgreSQL with Prisma ORM.
 
 ## Key Components
 
-- [Repository Pattern](Repository%252520Pattern.md) - Data access abstraction
-- [Database Migrations](Database%252520Migrations.md) - Schema versioning
-- [Connection Pooling](Connection%252520Pooling.md) - Performance optimization
-- [Query Optimization](Query%252520Optimization.md) - Performance best practices
+- [Repository Pattern](Repository%20Pattern.md) - Data access abstraction
+- [Database Migrations](Database%20Migrations.md) - Schema versioning
+- [Connection Pooling](Connection%20Pooling.md) - Performance optimization
+- [Query Optimization](Query%20Optimization.md) - Performance best practices
 
 ## Main Repositories
 
@@ -30,21 +30,21 @@ Handles all data persistence operations using PostgreSQL with Prisma ORM.
 // Located in: src/repositories/UserRepository.ts
 class UserRepository extends BaseRepository<User> {
   async findByEmail(email: string): Promise<User | null> {
-    // Links to [User Management](User%252520Management.md) entity
+    // Links to [User Management](User%20Management.md) entity
   }
   
   async createUser(userData: CreateUserDto): Promise<User> {
-    // Uses [Authentication System](Authentication%252520System.md) for password hashing
+    // Uses [Authentication System](Authentication%20System.md) for password hashing
   }
 }
 ```
 
 ### ProductRepository
 ```typescript
-// Links to [Product Management](Product%252520Management.md) domain
+// Links to [Product Management](Product%20Management.md) domain
 class ProductRepository extends BaseRepository<Product> {
   async findWithCategories(): Promise<Product[]> {
-    // Complex query examples in [Query Optimization](Query%252520Optimization.md)
+    // Complex query examples in [Query Optimization](Query%20Optimization.md)
   }
 }
 ```
@@ -52,13 +52,13 @@ class ProductRepository extends BaseRepository<Product> {
 ## Performance
 
 - Connection pooling configured in [Configuration](../../05-operations/Configuration.md)
-- Slow query monitoring via [Database Monitoring](Database%252520Monitoring.md)
-- Caching strategy documented in [Caching Layer](Caching%252520Layer.md)
+- Slow query monitoring via [Database Monitoring](Database%20Monitoring.md)
+- Caching strategy documented in [Caching Layer](Caching%20Layer.md)
 
 ## Error Handling
 
-- Database errors handled by [Database Error Handler](Database%252520Error%252520Handler.md)
-- Transaction rollbacks in [Transaction Management](Transaction%252520Management.md)
-- Connection failures managed by [Connection Resilience](Connection%252520Resilience.md)
+- Database errors handled by [Database Error Handler](Database%20Error%20Handler.md)
+- Transaction rollbacks in [Transaction Management](Transaction%20Management.md)
+- Connection failures managed by [Connection Resilience](Connection%20Resilience.md)
 
 #database #persistence #infrastructure

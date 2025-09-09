@@ -7,29 +7,29 @@ React component library and UI patterns for the application.
 ```
 App
 ├── Layout/
-│   ├── [Header Component](Header%252520Component.md)
-│   ├── [Navigation Component](Navigation%252520Component.md)
-│   └── [Footer Component](Footer%252520Component.md)
+│   ├── [Header Component](Header%20Component.md)
+│   ├── [Navigation Component](Navigation%20Component.md)
+│   └── [Footer Component](Footer%20Component.md)
 ├── Auth/
-│   ├── [Login Component](Login%252520Component.md)
-│   ├── [Register Component](Register%252520Component.md)
-│   └── [Protected Route](Protected%252520Route.md)
+│   ├── [Login Component](Login%20Component.md)
+│   ├── [Register Component](Register%20Component.md)
+│   └── [Protected Route](Protected%20Route.md)
 ├── User/
-│   ├── [User Profile](User%252520Profile.md)
-│   ├── [User Settings](User%252520Settings.md)
-│   └── [User Dashboard](User%252520Dashboard.md)
+│   ├── [User Profile](User%20Profile.md)
+│   ├── [User Settings](User%20Settings.md)
+│   └── [User Dashboard](User%20Dashboard.md)
 └── Common/
-    ├── [Button Component](Button%252520Component.md)
-    ├── [Input Component](Input%252520Component.md)
-    └── [Modal Component](Modal%252520Component.md)
+    ├── [Button Component](Button%20Component.md)
+    ├── [Input Component](Input%20Component.md)
+    └── [Modal Component](Modal%20Component.md)
 ```
 
 ## State Management
 
-- Global state via [Redux Store](Redux%252520Store.md)
-- Authentication state in [Auth Context](Auth%252520Context.md)
-- API calls through [React Query](React%252520Query.md)
-- Form state with [Form Validation](Form%252520Validation.md)
+- Global state via [Redux Store](Redux%20Store.md)
+- Authentication state in [Auth Context](Auth%20Context.md)
+- API calls through [React Query](React%20Query.md)
+- Form state with [Form Validation](Form%20Validation.md)
 
 ## Key Components
 
@@ -37,26 +37,26 @@ App
 ```jsx
 // src/components/Auth/LoginComponent.tsx
 import { AuthService } from '../../services/AuthService';
-import { useAuth } from '../hooks/useAuth'; // Links to [Auth Context](Auth%252520Context.md)
+import { useAuth } from '../hooks/useAuth'; // Links to [Auth Context](Auth%20Context.md)
 
 export const LoginComponent = () => {
-  // Integrates with [Authentication System](Authentication%252520System.md)
-  // Uses [Input Component](Input%252520Component.md) for form fields
-  // Handles [Authentication Errors](Authentication%252520Errors.md)
+  // Integrates with [Authentication System](Authentication%20System.md)
+  // Uses [Input Component](Input%20Component.md) for form fields
+  // Handles [Authentication Errors](Authentication%20Errors.md)
 };
 ```
 
 ### Protected Route
 ```jsx
 // Higher-order component for route protection
-// Links to [Authentication System](Authentication%252520System.md) for validation
-// Redirects via [Navigation Component](Navigation%252520Component.md) patterns
+// Links to [Authentication System](Authentication%20System.md) for validation
+// Redirects via [Navigation Component](Navigation%20Component.md) patterns
 ```
 
 ## Styling
 
-- Design system documented in [Design Tokens](Design%252520Tokens.md)
-- Component styles in [Styled Components](Styled%252520Components.md)
-- Responsive design via [Media Queries](Media%252520Queries.md)
+- Design system documented in [Design Tokens](Design%20Tokens.md)
+- Component styles in [Styled Components](Styled%20Components.md)
+- Responsive design via [Media Queries](Media%20Queries.md)
 
 #frontend #react #components #ui
