@@ -2,6 +2,7 @@
 
 Welcome to a structured approach to code documentation using Obsidian-style linking with GitHub compatibility. This vault demonstrates how to organize and interconnect technical documentation across a software project.
 
+[[test]]
 ## 🗂️ Structure Overview
 
 ```
@@ -77,8 +78,12 @@ This documentation system emphasizes **networked thinking** - each concept links
 To maintain GitHub compatibility while using Obsidian:
 1. Use standard markdown links: `[Text](path/to/file.md)`
 2. URL-encode spaces in filenames: `File%20Name.md`
-3. Use the included `convert-links.py` script for bulk conversions
+3. Use the included conversion tools and pre-commit hooks
 4. Test links work in both environments before committing
+
+**Setup Guides:**
+- [SETUP.md](SETUP.md) - Complete setup and automation guide
+- [agent.md](agent.md) - Guidelines for AI agents working with this vault
 
 ---
 

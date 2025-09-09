@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "01-architecture/README.md",
+                "file": "test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "test"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-architecture/README.md",
+                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for test"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-architecture/README.md",
+                "file": "test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links from test"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-architecture/README.md",
+                "file": "test.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of test"
             }
           }
         ]
@@ -171,16 +171,23 @@
   },
   "active": "ac7f5709a16e0a08",
   "lastOpenFiles": [
+    "README.md",
+    "test.md",
+    "03-frontend/README.md",
+    "02-backend/database/Repository Pattern.md",
+    "test-conversion.md",
+    "SETUP.md",
+    "scripts/convert-obsidian-links.py",
+    "scripts",
+    "agent.md",
+    "02-backend/database/Database Layer.md",
+    "01-architecture/README.md",
     "fix-multiple-encoding.py",
     "fix-encoding.py",
     "02-backend/api/API Design.md",
-    "01-architecture/README.md",
-    "02-backend/database/Database Layer.md",
     "02-backend/auth/Authentication System.md",
     "fix-all-links.py",
-    "README.md",
     "04-testing/UserService Tests.md",
-    "02-backend/database/Repository Pattern.md",
     "02-backend/api/RESTful Conventions.md",
     "02-backend/api/API Versioning.md",
     "02-backend/auth/Session Store.md",
@@ -188,7 +195,6 @@
     "update-structure-links.py",
     "05-operations/README.md",
     "04-testing/README.md",
-    "03-frontend/README.md",
     "02-backend/README.md",
     "05-operations/Configuration.md",
     "04-testing/Testing Strategy.md",
@@ -200,12 +206,6 @@
     "04-testing",
     "03-frontend",
     "02-backend/api",
-    "02-backend/database",
-    "02-backend/auth",
-    "02-backend",
-    "JWT Token Manager.md",
-    "Authentication System.md",
-    "API Design.md",
-    "API Versioning.md"
+    "JWT Token Manager.md"
   ]
 }
